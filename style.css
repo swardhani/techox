@@ -1,3 +1,5 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
 body{
     background-image: url(./pic1.png);
     background-repeat: no-repeat;
@@ -148,5 +150,46 @@ body{
     background-color: rgb(77, 146, 211);
     color: black;
 }
+footer{
+    padding:80px 15px;
+    background-color:rgb(228, 155, 224);
+
+}
+footer .logo{
+    flex:0 0 100%;
+    text-align:center;
+    font-size: 45px;
+    color: white;
+    font-weight: 900;
+}
+footer .social{
+    flex:0 0 100%;
+    max-width: 100%;
+    text-align:center;
+    padding-top:16px;
+}
+footer .social a{
+    color: #5a5353;
+    text-decoration: none;
+    display: inline-block;
+    margin:0px 12px;
+    transition:all .5s ease;
+}
+footer .social a:hover{
+    color: white;
+}
+.copyright{
+    background-color: rgb(13, 13, 14);
+    border-top:1px solid rgb(241, 206, 237);
+    padding: 15px;
+}
+.copyright p{
+    color:rgb(85, 79, 79);
+    margin:0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+}
+
 
     
